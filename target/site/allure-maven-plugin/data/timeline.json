@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-SIM7SLG",
+    "children" : [ {
+      "name" : "580@DESKTOP-SIM7SLG.main(1)",
+      "children" : [ {
+        "name" : "automateProcessOfRegisteringCloudPlatformPricingCalculator",
+        "uid" : "5cd8d2ce8d7dfec0",
+        "parentUid" : "d0d736449570f4abffe574fb6f4deb8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701626659894,
+          "stop" : 1701626659944,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google Cloud Platform Pricing Calculator" ]
+      }, {
+        "name" : "automateProcessOfRegisteringCloudPlatformPricingCalculator",
+        "uid" : "a98d45709f236f09",
+        "parentUid" : "d0d736449570f4abffe574fb6f4deb8d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1701626641278,
+          "stop" : 1701626658614,
+          "duration" : 17336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google Cloud Platform Pricing Calculator" ]
+      }, {
+        "name" : "automateProcessOfRegisteringCloudPlatformPricingCalculator",
+        "uid" : "65a5cad4496f207",
+        "parentUid" : "d0d736449570f4abffe574fb6f4deb8d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1701626659814,
+          "stop" : 1701626659863,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google Cloud Platform Pricing Calculator" ]
+      }, {
+        "name" : "beforeMethod",
+        "uid" : "4749ab69a41dd609",
+        "parentUid" : "d0d736449570f4abffe574fb6f4deb8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701626659786,
+          "stop" : 1701626659789,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google Cloud Platform Pricing Calculator" ]
+      } ],
+      "uid" : "d0d736449570f4abffe574fb6f4deb8d"
+    } ],
+    "uid" : "2db3002ac11cbff5e413d30e7f4be723"
+  } ]
+}

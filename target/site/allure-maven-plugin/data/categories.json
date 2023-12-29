@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.15.0', revision: '1d14b5521b'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, maximizeCurrentWindow {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\kubar\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "4749ab69a41dd609",
+        "parentUid" : "2a3e0f875fc76d4666a07da642a21bb3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701626659786,
+          "stop" : 1701626659789,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google Cloud Platform Pricing Calculator" ]
+      } ],
+      "uid" : "2a3e0f875fc76d4666a07da642a21bb3"
+    }, {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.15.0', revision: '1d14b5521b'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, findElement {using=xpath, value=//button[@class='pvUife']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\kubar\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}",
+      "children" : [ {
+        "name" : "automateProcessOfRegisteringCloudPlatformPricingCalculator",
+        "uid" : "5cd8d2ce8d7dfec0",
+        "parentUid" : "22d89d53bbbe8b843b85b9e86d88b357",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701626659894,
+          "stop" : 1701626659944,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google Cloud Platform Pricing Calculator" ]
+      } ],
+      "uid" : "22d89d53bbbe8b843b85b9e86d88b357"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

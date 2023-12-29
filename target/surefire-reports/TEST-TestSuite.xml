@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="26.372" tests="7" errors="0" skipped="5" failures="2">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\kubar\.cache\selenium\chromedriver\win64\119.0.6045.105\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\kubar\OneDrive\Pulpit\selenium-task4-framework\target\test-classes;C:\Users\kubar\OneDrive\Pulpit\selenium-task4-framework\target\classes;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\kubar\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\kubar\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\kubar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kubar\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kubar\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\kubar\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\kubar\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\kubar\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\kubar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\kubar\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\kubar\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\kubar\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kubar\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\kubar\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\kubar\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\kubar\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\kubar\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\kubar\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\kubar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\kubar\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\kubar\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\kubar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\kubar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\kubar\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\kubar\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\kubar\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\kubar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\kubar\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\kubar\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\kubar\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\kubar\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\kubar\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\kubar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\kubar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\kubar\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\kubar\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\kubar\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\kubar\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\kubar\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\kubar\.m2\repository\org\aspectj\aspectjweaver\1.9.20\aspectjweaver-1.9.20.jar;C:\Users\kubar\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\kubar\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\kubar\.m2\repository\org\assertj\assertj-core\3.21.0\assertj-core-3.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\kubar\AppData\Local\Temp\surefire5933598778111149397\surefirebooter-20231203190353396_3.jar C:\Users\kubar\AppData\Local\Temp\surefire5933598778111149397 2023-12-03T19-03-53_237-jvmRun1 surefire-20231203190353396_1tmp surefire_0-20231203190353396_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\kubar\OneDrive\Pulpit\selenium-task4-framework\target\test-classes;C:\Users\kubar\OneDrive\Pulpit\selenium-task4-framework\target\classes;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\kubar\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\kubar\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\kubar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kubar\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kubar\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\kubar\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\kubar\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\kubar\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\kubar\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\kubar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\kubar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\kubar\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\kubar\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\kubar\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kubar\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\kubar\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\kubar\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\kubar\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\kubar\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\kubar\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\kubar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\kubar\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\kubar\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\kubar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\kubar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\kubar\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\kubar\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\kubar\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\kubar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\kubar\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\kubar\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\kubar\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\kubar\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\kubar\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\kubar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\kubar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\kubar\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\kubar\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\kubar\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\kubar\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\kubar\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\kubar\.m2\repository\org\aspectj\aspectjweaver\1.9.20\aspectjweaver-1.9.20.jar;C:\Users\kubar\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\kubar\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\kubar\.m2\repository\org\assertj\assertj-core\3.21.0\assertj-core-3.21.0.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\kubar\OneDrive\Pulpit\selenium-task4-framework/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kubar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-09-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\kubar\OneDrive\Pulpit\selenium-task4-framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\kubar\AppData\Local\Temp\surefire5933598778111149397\surefirebooter-20231203190353396_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19+36-2238"/>
+    <property name="user.name" value="kubar"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kubar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kubar\AppData\Local\Temp\"/>
+    <property name="java.version" value="19"/>
+    <property name="user.dir" value="C:\Users\kubar\OneDrive\Pulpit\selenium-task4-framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\kubar\OneDrive\Pulpit\apache-maven-3.8.1\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\kubar\AppData\Local\Programs\Python\Python39;C:\Users\kubar\AppData\Local\Programs\Python\Python39\Scripts;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\kubar\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\kubar\AppData\Local\Programs\Python\Python39\;C:\Users\kubar\AppData\Local\Microsoft\WindowsApps;C:\Users\kubar\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\kubar\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19+36-2238"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="automateProcessOfRegisteringCloudPlatformPricingCalculator[Google Cloud Platform Pricing Calculator](1)" classname="tests.ProcessOfRegisteringCloudPlatformTests" time="0.0">
+    <skipped message="Element text was &lt;Total Estimated Cost: USD 97.09 per 1 month&gt; expecting to be &lt;1,288.70&gt;!"/>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 119.0.6045.105 (resolved driver for Chrome 119)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kubar\.cache\selenium\chromedriver\win64\119.0.6045.105\chromedriver.exe
+Dec 03, 2023 7:04:01 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:01 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:01 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:03 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:03 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:03 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:03 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:03 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:03 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:04 PM page.Cookies clickAcceptCookiesButton
+INFO: acceptCookiesButton zostal wcisniety
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='YSM5S']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:04 PM page.Homepage clickSearchIcon
+INFO: searchIcon zostal wcisniety
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@class='mb2a7b']
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [Google Cloud Platform Pricing Calculator]
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [Google Cloud Platform Pricing Calculator]
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [Google Cloud Platform Pricing Calculator]
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [Google Cloud Platform Pricing Calculator]
+Dec 03, 2023 7:04:04 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [Google Cloud Platform Pricing Calculator]
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [Google Cloud Platform Pricing Calculator]
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [Google Cloud Platform Pricing Calculator]
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [Google Cloud Platform Pricing Calculator]
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [Google Cloud Platform Pricing Calculator]
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [Google Cloud Platform Pricing Calculator]
+Dec 03, 2023 7:04:05 PM page.Homepage setTextInSearchInput
+INFO: searchInput zostal ustawiony wartoscia: Google Cloud Platform Pricing Calculator
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:05 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //a[@class='gs-title']//b[text()='Google Cloud Pricing Calculator']
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:07 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:11 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:11 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:11 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:11 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:11 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:11 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:11 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:11 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:11 PM page.Search clickGoogleCloudPricingCalculatorOption
+INFO: googleCloudPricingCalculatorOption zostal wcisniety
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@title='Compute Engine']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:12 PM page.Calculator clickComputeEngineSection
+INFO: computeEngineSection zostal wcisniety
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@name='quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [4]
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text [4]
+Dec 03, 2023 7:04:12 PM page.Calculator setNumberOfInstances
+INFO: numberOfInstancesInput zostal ustawiony wartoscia: 4
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //input[@ng-model='listingCtrl.computeServer.quantity']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeSendKeys
+INFO: Trying to type text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text []
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterSendKeys
+INFO: Typed text []
+Dec 03, 2023 7:04:12 PM page.Calculator setInstancesReasonInput
+INFO: instancesReasonInput zostal ustawiony wartoscia: 
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select-value[@id='select_value_label_95']
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:12 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:13 PM page.Calculator clickMachineFamilySelect
+INFO: machineFamilySelect zostal wcisniety
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:13 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text' and contains(text(), 'General purpose')]
+Dec 03, 2023 7:04:14 PM page.Calculator setMachineFamily
+INFO: machineFamilyOption zostal ustawiony wartoscia: General purpose
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='select_value_label_96']
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:14 PM page.Calculator clickSeriesSelect
+INFO: seriesSelect zostal wcisniety
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:14 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //div[@class='md-text ng-binding' and contains(text(), 'N1')]
+Dec 03, 2023 7:04:15 PM page.Calculator setSeries
+INFO: seriesOption zostal ustawiony wartoscia: N1
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-checkbox[@ng-model='listingCtrl.computeServer.addGPUs']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:15 PM page.Calculator clickAddGpuCheckbox
+INFO: addGpuCheckbox zostal wcisniety
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-select[@ng-model='listingCtrl.computeServer.gpuType']
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:15 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:16 PM page.Calculator clickGpuTypeSelect
+INFO: gpuTypeSelect zostal wcisniety
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:16 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //md-option[contains(@ng-repeat, 'item in listingCtrl.gpuList') and @value='NVIDIA_TESLA_V100']
+Dec 03, 2023 7:04:17 PM page.Calculator setGpuType
+INFO: gpuTypeOption zostal ustawiony wartoscia: NVIDIA_TESLA_V100
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //button[@ng-click='listingCtrl.addComputeServer(ComputeEngineForm);']
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener beforeClick
+INFO: Trying to click WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:17 PM driver.listeners.DriverEventListener afterClick
+INFO: Clicked WebElement
+Dec 03, 2023 7:04:17 PM page.Calculator clickAddToEstimateButton
+INFO: addToEstimateButton zostal wcisniety
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM page.Calculator assertThatEstimatedCostIsCorrect
+INFO: Checing if totalEstimatedCost value is equal expected value: {}
+Dec 03, 2023 7:04:18 PM generic.assertions.AssertWebElement hasText
+INFO: Checking if WebElement has text: 1,288.70
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM driver.listeners.DriverEventListener afterFindElement
+INFO: Found WebElement with locator By.xpath: //*[@id='resultBlock']/md-card/md-card-content/div/div/div/div[1]/h2/b
+Dec 03, 2023 7:04:18 PM utils.testng.listeners.RetryAnalyzer retry
+INFO: Retrying test method {}!
+]]></system-err>
+  </testcase>
+  <testcase name="beforeMethod" classname="tests.ProcessOfRegisteringCloudPlatformTests" time="18.679">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kubar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kubar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1123)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$kCK7d3Zf.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$GuI4dbj7.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$h2Jx68Fx.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$FDp8291t.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Zd2S7U9H.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Dzk2bsDG.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$kmqoFg0z.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$pfWjXtBp.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$0rGkYObr.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$flvLne4W.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$k5BkmkeB.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$N0OQlN2L.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ANDP0mT9.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ylt6Y4Ey.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$YdcdGtE3.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$JmPdrrG5.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$SrVZjNKR.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$dJ9x47QP.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$mp19qWhE.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$7UKJEbjH.maximize(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$YqNTbtoV.maximize(Unknown Source)
+	at tests.BaseTestNgSetup.beforeMethod(BaseTestNgSetup.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="beforeMethod" classname="tests.ProcessOfRegisteringCloudPlatformTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="automateProcessOfRegisteringCloudPlatformPricingCalculator[Google Cloud Platform Pricing Calculator](2)" classname="tests.ProcessOfRegisteringCloudPlatformTests" time="0.0">
+    <skipped message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, findElement {using=xpath, value=//button[@class=&apos;pvUife&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kubar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}"/>
+    <system-err><![CDATA[Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM utils.testng.listeners.RetryAnalyzer retry
+INFO: Retrying test method {}!
+]]></system-err>
+  </testcase>
+  <testcase name="afterMethod" classname="tests.ProcessOfRegisteringCloudPlatformTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="tests.ProcessOfRegisteringCloudPlatformTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="automateProcessOfRegisteringCloudPlatformPricingCalculator[Google Cloud Platform Pricing Calculator](3)" classname="tests.ProcessOfRegisteringCloudPlatformTests" time="0.152">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, findElement {using=xpath, value=//button[@class=&apos;pvUife&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kubar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//button[@class='pvUife']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kubar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$3Pvvkskj.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Tte0tGqo.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$6PxqY2oJ.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$GXXrn6ZZ.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$J8labkbP.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$lsdMgE5K.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Er9IccgO.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$2tECfn9T.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$3WkF3Eki.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$xQCJMuTx.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$lDgsHTEY.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$xOVnt3HH.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$41L5fAhX.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$WOxWs8Xy.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$y797Iz36.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$RTGnP93l.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$IHBaQtpw.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ZDdbumgk.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$TTtqWH6w.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$8GpAKtoH.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$k5U1bxnl.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Y1qHSeYF.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$4vxRwBwT.findElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ZbCVyQwb.findElement(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at waits.WaitForElement.waitUntilElementIsVisible(WaitForElement.java:18)
+	at page.Cookies.clickAcceptCookiesButton(Cookies.java:28)
+	at tests.ProcessOfRegisteringCloudPlatformTests.automateProcessOfRegisteringCloudPlatformPricingCalculator(ProcessOfRegisteringCloudPlatformTests.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM driver.listeners.DriverEventListener beforeFindElement
+INFO: Trying to find WebElement with locator By.xpath: //button[@class='pvUife']
+Dec 03, 2023 7:04:19 PM utils.testng.listeners.RetryAnalyzer retry
+INFO: Test method {} will be not retried!
+]]></system-err>
+  </testcase>
+</testsuite>

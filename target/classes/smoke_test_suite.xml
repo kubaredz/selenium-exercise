@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Smoke tests">
+
+    <listeners>
+        <listener class-name="utils.testng.listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="Process of registering cloud platform tests">
+        <parameter name="productName" value="Google Cloud Platform Pricing Calculator"></parameter>
+        <classes>
+            <class name="tests.ProcessOfRegisteringCloudPlatformTests"/>
+        </classes>
+    </test>
+</suite>

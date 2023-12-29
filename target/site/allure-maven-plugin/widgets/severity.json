@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5cd8d2ce8d7dfec0",
+  "name" : "automateProcessOfRegisteringCloudPlatformPricingCalculator",
+  "time" : {
+    "start" : 1701626659894,
+    "stop" : 1701626659944,
+    "duration" : 50
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "4749ab69a41dd609",
+  "name" : "beforeMethod",
+  "time" : {
+    "start" : 1701626659786,
+    "stop" : 1701626659789,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

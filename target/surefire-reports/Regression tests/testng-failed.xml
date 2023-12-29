@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utils.testng.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Process of registering cloud platform tests(failed)" verbose="0">
+    <parameter name="productName" value="Google Cloud Platform Pricing Calculator"/>
+    <classes>
+      <class name="tests.ProcessOfRegisteringCloudPlatformTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="automateProcessOfRegisteringCloudPlatformPricingCalculator" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.ProcessOfRegisteringCloudPlatformTests -->
+    </classes>
+  </test> <!-- Process of registering cloud platform tests(failed) -->
+</suite> <!-- Failed suite [Regression tests] -->
